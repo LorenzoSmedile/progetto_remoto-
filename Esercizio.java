@@ -12,6 +12,7 @@ public class triangoloEquilatero extends Application {
 
 	Label lAlejandro=new Label("Alejandro romero ordonez sei bellissimo, baciamoci");
 	Label lmaialino=new Label("Menichetti miaialino polacco")
+	Label lSicilia= new Label("viva le arancine");
 	TextField tLato=new TextField();
 	 TextField tAltezza= new TextField();
 	 Label lRisultato=new Label();
@@ -50,6 +51,7 @@ public class triangoloEquilatero extends Application {
 		risposta=""+perimetro;
 		lRisultato.setText(risposta);	
 	}
+	
 	public void area() {
 		double area;
 		double lato= Integer.parseInt(tLato.getText());
